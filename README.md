@@ -22,11 +22,11 @@ Logica do Matchmaking:
 - O jogador solicita entrada na fila informando seu ID.
 - O sistema busca o jogador na Tabela Hash e identifica seu Tier.
 - Se a fila do Tier já possuir 9 ou mais jogadores, o sistema remove os 9 primeiros, adiciona o jogador atual, fecha a partida 5v5 e monta os dois times.
-- Se houver menos de 9 jogadores na fila, o jogador eh adicionado ao final da fila de espera.
+- Se houver menos de 9 jogadores na fila, o jogador é adicionado ao final da fila de espera.
 
 Complexidade Algorítmica (Big-O): 
-Busca na Tabela Hash: O(1) no caso médio / O(k) no pior caso de colisão
-Insercao na Tabela Hash: O(1)
-Entrada na Fila (append): O(1)
-Formacao de Partida (popleft): O(1)
-Cancelar Busca na Fila (remove): O(N)
+- Busca na Tabela Hash: O(1) no caso médio / O(k) no pior caso de colisão
+- Inserção na Tabela Hash: O(1)
+- Entrada na Fila (append): O(1)
+- Formação de Partida (popleft): O(1)
+- Cancelar Busca na Fila (remove): O(N)
