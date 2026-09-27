@@ -1,6 +1,6 @@
 # Servidor de Matchmaking e Ranking
 
-Projeto acadêmico desenvolvido para a disciplina de Algoritmos e Estruturas de Dados.
+Projeto acadêmico desenvolvido para a disciplina de Estruturas de Dados.
 
 O objetivo do sistema é simular um servidor de pareamento de partidas 5v5 para jogos competitivos, gerenciando filas de espera por categoria e atualizando a patente dos jogadores de acordo com suas vitorias e derrotas. O foco principal do projeto é o uso de estruturas de dados fundamentais sem o uso de abstrações prontas.
 Estruturas de Dados e Arquitetura
